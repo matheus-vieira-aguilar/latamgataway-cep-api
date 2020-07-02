@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cep: MyString
+  logradouro: MyString
+  complemento: MyString
+  bairro: MyString
+  localidade: MyString
+  uf: MyString
+  unidade: MyString
+  ibge: MyString
+  gia: MyString
+
+two:
+  cep: MyString
+  logradouro: MyString
+  complemento: MyString
+  bairro: MyString
+  localidade: MyString
+  uf: MyString
+  unidade: MyString
+  ibge: MyString
+  gia: MyString
