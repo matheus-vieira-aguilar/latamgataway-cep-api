@@ -23,7 +23,7 @@ class Api::V1::EnderecoController < Api::V1::ApiController
             return render :json => payload, :status => :bad_request
         end
 
-        #cria endereço buscado:
+        #busca ou cria endereço buscado:
         @endereco = Endereco.find_or_create_by(cep: cep)
         @endereco.assign_attributes(data)
 
